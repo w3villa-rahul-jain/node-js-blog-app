@@ -1,8 +1,6 @@
 import "./App.css";
 import {
-  craeteBrowserRouter,
   RouterProvider,
-  Route,
   createBrowserRouter,
   Outlet,
 } from "react-router-dom";
