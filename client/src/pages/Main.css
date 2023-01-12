@@ -1,3 +1,4 @@
+/* login and register ui  */
 .main-container {
   display: flex;
   justify-content: center;
@@ -23,7 +24,7 @@
   border: none;
   outline: none;
   padding: 10px;
-  border-bottom: 2px solid rgb(57, 189, 241);
+  border-bottom: 2px solid var(--skyBlue);
   margin-bottom: 20px;
 }
 
@@ -33,7 +34,7 @@
   text-transform: uppercase;
   border: none;
   outline: none;
-  background: rgb(57, 189, 241);
+  background: var(--skyBlue);
   color: white;
   font-weight: 600;
   border-radius: 20px;
@@ -48,3 +49,64 @@
   text-align: center;
   font-size: 14px;
 }
+
+/* -------------------- login and register ui ------------------- */
+
+/* navbar css code */
+
+.navbar{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background: white;
+    border-bottom: 1px solid var(--skyBlue);
+
+}
+
+.navbar ul, .navbar .links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.navbar .logo{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--skyBlue);
+}
+
+.navbar .links ul li {
+    padding: 10px;
+}
+
+.navbar .links span{
+    padding: 10px;
+}
+
+
+
+/* footer */
+.footer{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--skyBlue);
+}
+
+.footer .footer-logo{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+
+
+
+
