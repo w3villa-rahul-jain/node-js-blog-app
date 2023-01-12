@@ -32,3 +32,21 @@
 .list-items {
   list-style-type: none;
 }
+
+.edit-btn, .del-btn{
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: white;
+}
+
+.edit-btn{
+  background: var(--skyBlue);
+  margin-right: 10px;
+  
+}
+
+.del-btn{
+  background: red;
+}
