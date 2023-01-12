@@ -1,0 +1,50 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  width: 100%;
+}
+
+.main-container .nav-container {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  width: 350px;
+  border-radius: 20px;
+}
+
+.main-container .nav-container .input-field {
+  height: 30px;
+  width: 100%;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-bottom: 2px solid rgb(57, 189, 241);
+  margin-bottom: 20px;
+}
+
+.main-container .nav-container .cm-btn {
+  padding: 8px;
+  font-size: 20px;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  background: rgb(57, 189, 241);
+  color: white;
+  font-weight: 600;
+  border-radius: 20px;
+}
+
+.main-container .nav-container .cm-btn:hover {
+  background: gray;
+}
+
+.main-container .nav-container .account-link {
+  margin: 20px 0px;
+  text-align: center;
+  font-size: 14px;
+}

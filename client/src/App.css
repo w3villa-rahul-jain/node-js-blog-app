@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-text {
+  text-align: center;
+  margin: 10px;
+  color: rgb(9, 171, 235);
+  text-transform: uppercase;
+}
+
+.all-links {
+  color: rgb(9, 171, 235);
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.error {
+  font-size: 14px;
+  text-align: center;
+  margin: 10px;
+  color: red;
+}
