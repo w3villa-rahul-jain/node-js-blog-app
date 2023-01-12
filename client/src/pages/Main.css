@@ -54,59 +54,94 @@
 
 /* navbar css code */
 
-.navbar{
-    padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    background: white;
-    border-bottom: 1px solid var(--skyBlue);
-
+.navbar {
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background: white;
+  border-bottom: 1px solid var(--skyBlue);
 }
 
-.navbar ul, .navbar .links{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+.navbar ul,
+.navbar .links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-
-.navbar .logo{
-    font-size: 20px;
-    font-weight: 700;
-    color: var(--skyBlue);
+.navbar .logo {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--skyBlue);
 }
 
 .navbar .links ul li {
-    padding: 10px;
+  padding: 10px;
 }
 
-.navbar .links span{
-    padding: 10px;
+.navbar .links span {
+  padding: 10px;
 }
-
-
 
 /* footer */
-.footer{
-    padding: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: var(--skyBlue);
+.footer {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--skyBlue);
 }
 
-.footer .footer-logo{
-    font-size: 25px;
-    text-transform: uppercase;
-    font-weight: 400;
+.footer .footer-logo {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 400;
 }
 
+.homepage {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
 
+.homepage .imgdiv {
+  height: 300px;
+  width: 100%;
+}
 
+.homepage .imgdiv .image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
 
+.homepage .blog-text {
+  padding: 20px 0px;
+}
 
+.homepage .blog-text h3 {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.homepage .blog-text p {
+  color: gray;
+  padding: 10px 0px;
+  height: 48px;
+  overflow: hidden;
+}
+
+.read-more-btn {
+  padding: 10px;
+  background: var(--skyBlue);
+  color: white;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+}
